@@ -37,4 +37,4 @@ dash_str = ('-' * 28)
 str_analysis = f'Financial Analysis\n{dash_str}\n{str_tm}\n{str_netT}\n{str_avgDelta}\n{str_gInc}\n{str_gDec}'
 print(str_analysis)
 with open('analysis/analysis.txt', 'w') as a_file:
-    a_file.writelines(str_analysis) #for L = ['Financial Analysis', str_tm, str_netT, str_avgDelta, str_gInc, str_gDec]
+    a_file.writelines(str_analysis) 
